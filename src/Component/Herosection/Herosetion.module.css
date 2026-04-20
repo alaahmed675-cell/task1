@@ -1,0 +1,36 @@
+.container {
+    margin: auto;   
+    padding: 15px;
+    max-width: 1200px;
+}
+
+.hero-parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px; 
+    padding: 60px 0;
+}
+
+
+.heroTitle {
+    color: #1a4d2e; 
+    font-size: 40px; 
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.greenText {
+    color: #00a854; 
+}
+
+.heroDesc {
+    color: #666;
+    font-size: 18px;
+    max-width: 500px; 
+}
+
+.info-img img {
+    max-width: 100%;
+    height: auto;
+}

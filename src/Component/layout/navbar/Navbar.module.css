@@ -1,0 +1,57 @@
+.nav-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    gap: 30px; 
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.links li:first-child {
+    color: #00a854;
+}
+
+.nav-info {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.goup-btns {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.goup-btns button:first-child {
+    background: none;
+    border: none;
+    color: #00a854;
+    font-weight: bold;
+    text-decoration: underline; 
+    font-size: 16px;
+}
+
+.goup-btns button:last-child {
+    background-color: #00a854;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px; 
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.goup-btns button:last-child:hover {
+    background-color: #008f47;
+}
