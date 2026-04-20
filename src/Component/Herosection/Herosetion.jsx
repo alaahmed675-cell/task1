@@ -19,7 +19,7 @@ function Herosetion() {
                 </div>
                 
                 <div className={styles["info-img"]}>
-                    <img src={info} alt="Jobs in Egypt" />
+                    <img src={info} alt="" />
                 </div>
             </div>
         </div>
